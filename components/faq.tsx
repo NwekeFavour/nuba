@@ -57,7 +57,7 @@ export default function FAQ() {
 const faqItems = [
   {
     question: "Why pay rent with Nuba?",
-    answer: `Rent day shouldn’t feel like a setback. With Nuba, it becomes an opportunity.
+    answer: `Because rent day doesn’t have to be pain day. Here’s how Nuba puts you back in control:
 
 ● Earn rewards  
 Use your card to pay rent and earn points. When friends pay rent using your referral link, you earn even more — including repeated 100% discounts. Yes, rent-free living is possible.
@@ -79,16 +79,16 @@ Refer others, earn points, and unlock discounts. Earn enough and you could live 
     answer:
       "Yes. You can use your American Express card to pay rent through Nuba. Enjoy flexibility, rewards, and secure transactions with your preferred card.",
   },
-  {
-    question: "Can I earn more in rewards than I pay in fees?",
-    answer: `● For businesses:  
-Yes. Nuba fees may be tax-deductible as a business expense, helping reduce your end-of-year tax bill. Speak with a tax advisor for specific guidance.
+{
+  question: "Can I earn more in rewards than I pay in fees?",
+  answer: `● For businesses:  
+Yes. The Nuba fee may be fully tax-deductible as a business expense, potentially lowering your end-of-year tax bill. Using Nuba to pay rent can be both rewarding and financially efficient. Consult your tax advisor for personalized guidance.
 
 ● For individuals:  
-Absolutely — especially if your card offers cashback, rewards, or travel points. Add in Nuba referrals and Rent Day perks, and you can easily earn more than the cost of any fees.
+Absolutely — especially if your card offers cashback, points, or travel rewards. Combine that with Nuba referrals and Rent Day perks, and you could earn far more than the fees you pay. In fact, if you consistently accumulate enough Nuba Points, you could unlock multiple months of free rent.
 
-Note: Results vary depending on your card and financial habits.`,
-  },
+Note: Actual results depend on your card type, spending, and how actively you refer others.`,
+},
   {
     question: "Is Nuba secure?",
     answer:
