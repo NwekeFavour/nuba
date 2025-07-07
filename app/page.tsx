@@ -30,7 +30,7 @@ import {
 } from "@/components/ui/carousel"
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/store';
-import { useRef, useState } from 'react';
+import { RefObject, useRef, useState } from 'react';
 import Footer from '@/components/footer';
 import GetReady from '@/components/GertReady';
 import Visa from "@/public/visa.svg"
@@ -60,12 +60,15 @@ export default function Home() {
   const scrollRef1 = useRef(null);
   const scrollRef2 = useRef(null);
 
-  const scroll = (ref, direction) => {
-    if (ref.current) {
-      const scrollAmount = 300;
-      ref.current.scrollBy({ left: direction === "left" ? -scrollAmount : scrollAmount, behavior: "smooth" });
-    }
-  };
+ const scroll = (ref: RefObject<HTMLDivElement>, direction: "left" | "right") => {
+  if (ref.current) {
+    const scrollAmount = 300;
+    ref.current.scrollBy({
+      left: direction === "left" ? -scrollAmount : scrollAmount,
+      behavior: "smooth",
+    });
+  }
+};
 
   return ( 
     <div className="min-h-screen bg-gray-50 font-sans">
@@ -447,7 +450,7 @@ export default function Home() {
         <div className="flex justify-between items-center w-full mb-7">
           <p className="text-xl font-semibold text-white lg:text-[20px] text-[18px]">Airline transfer partners</p>
           <div className="flex items-center gap-2">
-            <button onClick={() => scroll(scrollRef1, "left")} className="bg-white rounded-full p-2">
+            <button onClick={() => scroll(scrollRef1, "left")}className="bg-white rounded-full p-2">
               <FaArrowLeft className="text-black" />
             </button>
             <button onClick={() => scroll(scrollRef1, "right")} className="bg-white rounded-full p-2">
