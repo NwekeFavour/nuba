@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '../components/home.module.css'
 import { Button } from './ui/button'
-import ArrowUp from "@/public/arrow-up.svg"
+import ArrowUp from "@/public/svgs/arrow-up.svg"
 
 export default function GetReady() {
     return(

@@ -1,5 +1,5 @@
 import Image from 'next/image';  
-import Ellipse from "@/public/Ellipse.svg"
+import Ellipse from "@/public/svgs/Ellipse.svg"
 import styles from './home.module.css'
 
 export default function Footer() {

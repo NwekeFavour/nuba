@@ -5,18 +5,18 @@ import Head from 'next/head';
 import Link from 'next/link'; 
 import Image from 'next/image';  
 import styles from '../components/home.module.css'
-import Airplane from "../public/airplane.svg"
-import HomeIcon from "@/public/Home.svg"
-import Ph from "@/public/ph.svg"
-import Mynaui from "@/public/mynaui.svg"
+import Airplane from "../public/svgs/airplane.svg"
+import HomeIcon from "@/public/svgs/Home.svg"
+import Ph from "@/public/svgs/ph.svg"
+import Mynaui from "@/public/svgs/mynaui.svg"
 import { Button } from "@/components/ui/button"
-import FrameOne from "@/public/frame_one.svg"
-import FrameTwo from "@/public/imageo.svg"
-import Boxone from "@/public/mingcute_ticket-fill.svg"
-import Boxtwo from "@/public/ion_calendar.svg"
-import EllipseTwo from "@/public/ellipse2.svg"
+import FrameOne from "@/public/svgs/frame_one.svg"
+import FrameTwo from "@/public/svgs/imageo.svg"
+import Boxone from "@/public/svgs/mingcute_ticket-fill.svg"
+import Boxtwo from "@/public/svgs/ion_calendar.svg"
+import EllipseTwo from "@/public/svgs/ellipse2.svg"
 import { Card, CardContent } from "@/components/ui/card"
-import FrameDo from "@/public/framedo.svg"
+import FrameDo from "@/public/svgs/framedo.svg"
 import {  BiSolidPlaneAlt } from "react-icons/bi";
 import { RiBankFill } from "react-icons/ri";
 import { MdHomeFilled } from "react-icons/md";
@@ -33,11 +33,11 @@ import { RootState } from '@/store';
 import { RefObject, useRef, useState } from 'react';
 import Footer from '@/components/footer';
 import GetReady from '@/components/GertReady';
-import Visa from "@/public/visa.svg"
-import Mastercard from "@/public/mastercard.svg"
-import Discover from "@/public/discover.svg"
-import American from "@/public/american.svg"
-import Rect from "@/public/rect.svg"
+import Visa from "@/public/svgs/visa.svg"
+import Mastercard from "@/public/svgs/mastercard.svg"
+import Discover from "@/public/svgs/discover.svg"
+import American from "@/public/svgs/american.svg"
+import Rect from "@/public/svgs/rect.svg"
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export default function Home() { 

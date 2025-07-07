@@ -3,13 +3,13 @@
   background-color: #0f1419 !important;
  }
  .rent{
-  background-image: url("../public/rentbg.svg");
+  background-image: url("../public/svgs/rentbg.svg");
   background-position: center;
   background-size: cover;
   width: 100%;
  }
  .faq{
-  background-image: url("../public/faqhero.webp");
+  background-image: url("../public/svgs/faqhero.webp");
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -31,7 +31,7 @@
  }
 
  .img{
-  background-image: url("../public/image\ 17.svg");
+  background-image: url("../public/svgs/image\ 17.svg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -39,7 +39,7 @@
  }
 
  .img2{
-  background-image: url("../public/image\ 14.svg");
+  background-image: url("../public/svgs/image\ 14.svg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -47,7 +47,7 @@
  }
 
   .img3{
-  background-image: url("../public/img-one.jpg");
+  background-image: url("../public/svgs/img-one.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -56,7 +56,7 @@
 
 
  .sect{
-  background-image: url("../public/Map.svg");
+  background-image: url("../public/svgs/Map.svg");
   height: 414px;
   background-color: #ffffff;
   background-position: center;
@@ -65,7 +65,7 @@
   content: "";
  }
  .footer{
-  background-image: url("../public/NUBA.svg");
+  background-image: url("../public/svgs/NUBA.svg");
   height: 400px;
   background-position: bottom;
   background-repeat: no-repeat;

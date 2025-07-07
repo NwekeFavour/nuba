@@ -6,8 +6,8 @@ import Link from "next/link"
 import { HamburgerMenuIcon } from "@radix-ui/react-icons"
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
-import Nuba from "@/public/uba.svg"
-import N from "@/public/N.svg"
+import Nuba from "@/public/svgs/uba.svg"
+import N from "@/public/svgs/N.svg"
 import Image from "next/image"
 import { HiBars2 } from "react-icons/hi2";
 

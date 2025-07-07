@@ -1,26 +1,26 @@
 // store/cardSlice.ts
 import { createSlice } from "@reduxjs/toolkit";
-import CardOne from "@/public/card-one.svg";
-import CardTwo from "@/public/card-two.svg";
-import CardThree from "@/public/card-three.svg";
-import CardFour from "@/public/card-four.svg";
-import CardFive from "@/public/card-five.svg";
-import CardSix from "@/public/card-six.svg";
-import CardSeven from "@/public/card-seven.svg";
-import CardEight from "@/public/card-eight.svg";
-import CardUn from "@/public/cardOne-one.svg"
-import CardDeux from "@/public/cardTwo-two.svg"
-import CardTroix from "@/public/cardThree-three.svg"
-import CardQuatre from "@/public/cardFour-four.svg"
-import CardCinq from "@/public/cardFive-five.svg"
-import CardSixx from "@/public/cardSix-six.svg"
-import CardSept from "@/public/cardSeven-seven.svg"
-import CardHuit from "@/public/cardEight-eight.svg"
-import CardIx from "@/public/cardNine-nine.svg"
-import VectorOne from "@/public/Vector.svg"
-import VectorTwo from "@/public/vectortwo.svg"
-import VectorThree from "@/public/vectorthree.svg"
-import VectorFour from "@/public/vectorFour.svg"
+import CardOne from "@/public/svgs/card-one.svg";
+import CardTwo from "@/public/svgs/card-two.svg";
+import CardThree from "@/public/svgs/card-three.svg";
+import CardFour from "@/public/svgs/card-four.svg";
+import CardFive from "@/public/svgs/card-five.svg";
+import CardSix from "@/public/svgs/card-six.svg";
+import CardSeven from "@/public/svgs/card-seven.svg";
+import CardEight from "@/public/svgs/card-eight.svg";
+import CardUn from "@/public/svgs/cardOne-one.svg"
+import CardDeux from "@/public/svgs/cardTwo-two.svg"
+import CardTroix from "@/public/svgs/cardThree-three.svg"
+import CardQuatre from "@/public/svgs/cardFour-four.svg"
+import CardCinq from "@/public/svgs/cardFive-five.svg"
+import CardSixx from "@/public/svgs/cardSix-six.svg"
+import CardSept from "@/public/svgs/cardSeven-seven.svg"
+import CardHuit from "@/public/svgs/cardEight-eight.svg"
+import CardIx from "@/public/svgs/cardNine-nine.svg"
+import VectorOne from "@/public/svgs/Vector.svg"
+import VectorTwo from "@/public/svgs/vectortwo.svg"
+import VectorThree from "@/public/svgs/vectorthree.svg"
+import VectorFour from "@/public/svgs/vectorFour.svg"
 
 interface Card {
   id: number;
