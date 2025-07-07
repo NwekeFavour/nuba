@@ -115,10 +115,12 @@ export default function Home() {
                             </div> 
                           </div> 
                         </div> 
-                        <span className="relative flex mt-3 size-4 left-1/2 transform -translate-x-1/2 scale-[0.8064] opacity-[0.7096]">
-                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white shadow-[0_0_0_5px_rgba(255,255,255,0.07)]"></span>
-                          <span className="relative inline-flex size-4 rounded-full bg-white"></span>
-                        </span>
+                        <span className="relative flex mt-3 w-[7px] h-[7px] left-1/2 transform -translate-x-1/2 opacity-[0.7]">
+                          <span className="absolute inline-flex w-full h-full animate-[ping_2s_ease-in-out_infinite] rounded-full bg-white shadow-[0_0_0_6px_rgba(255,255,255,0.07)]"></span>
+                          <span className="relative inline-flex w-[7px] h-[7px] rounded-full bg-white"></span>
+                        </span> 
+
+
 
                       </div> 
                       {/* Pharmacy Pin */} 
@@ -135,10 +137,10 @@ export default function Home() {
                             </div> 
                           </div> 
                         </div> 
-                        <span className="relative flex mt-3 size-4 left-1/2 transform -translate-x-1/2 scale-[0.8064] opacity-[0.7096]">
-                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white shadow-[0_0_0_5px_rgba(255,255,255,0.07)]"></span>
-                          <span className="relative inline-flex size-4 rounded-full bg-white"></span>
-                        </span>
+                        <span className="relative flex mt-3 w-[7px] h-[7px] left-1/2 transform -translate-x-1/2 opacity-[0.7]">
+                          <span className="absolute inline-flex w-full h-full animate-[ping_2s_ease-in-out_infinite] rounded-full bg-white shadow-[0_0_0_4px_rgba(255,255,255,0.07)]"></span>
+                          <span className="relative inline-flex w-[7px] h-[7px] rounded-full bg-white"></span>
+                        </span> 
                       </div> 
                       <div className={`${styles.pin } absolute  pos xl:left-0 xl:top-[30px]`}> 
                         <div className={`${styles.pinCard} backdrop-blur-sm bg-white/10`}> 
@@ -153,9 +155,9 @@ export default function Home() {
                             </div> 
                           </div> 
                         </div> 
-                        <span className="relative flex mt-3 size-4 left-1/2 transform -translate-x-1/2 scale-[0.8064] opacity-[0.7096]">
-                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white shadow-[0_0_0_5px_rgba(255,255,255,0.07)]"></span>
-                          <span className="relative inline-flex size-4 rounded-full bg-white"></span>
+                        <span className="relative flex mt-3 w-[7px] h-[7px] left-1/2 transform -translate-x-1/2 opacity-[0.7]">
+                          <span className="absolute inline-flex w-full h-full animate-[ping_2s_ease-in-out_infinite] rounded-full bg-white shadow-[0_0_0_6px_rgba(255,255,255,0.07)]"></span>
+                          <span className="relative inline-flex w-[7px] h-[7px] rounded-full bg-white"></span>
                         </span>                      
                       </div> 
                       {/* Restaurant Pin */} 
@@ -172,10 +174,10 @@ export default function Home() {
                             </div> 
                           </div> 
                         </div> 
-                        <span className="relative flex mt-3 size-4 left-1/2 transform -translate-x-1/2 scale-[0.8064] opacity-[0.7096]">
-                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white shadow-[0_0_0_5px_rgba(255,255,255,0.07)]"></span>
-                          <span className="relative inline-flex size-4 rounded-full bg-white"></span>
-                        </span>
+                        <span className="relative flex mt-3 w-[7px] h-[7px] left-1/2 transform -translate-x-1/2 opacity-[0.7]">
+                          <span className="absolute inline-flex w-full h-full animate-[ping_2s_ease-in-out_infinite] rounded-full bg-white shadow-[0_0_0_6px_rgba(255,255,255,0.07)]"></span>
+                          <span className="relative inline-flex w-[7px] h-[7px] rounded-full bg-white"></span>
+                        </span> 
 
                       </div> 
                       {/* Fitness Pin */} 
@@ -192,10 +194,10 @@ export default function Home() {
                             </div> 
                             </div>
                           </div> 
-                        <span className="relative flex mt-3 size-4 left-1/2 transform -translate-x-1/2 scale-[0.8064] opacity-[0.7096]">
-                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white shadow-[0_0_0_5px_rgba(255,255,255,0.07)]"></span>
-                          <span className="relative inline-flex size-4 rounded-full bg-white"></span>
-                        </span>                          
+                          <span className="relative flex mt-3 w-[7px] h-[7px] left-1/2 transform -translate-x-1/2 opacity-[0.7]">
+                            <span className="absolute inline-flex w-full h-full animate-[ping_2s_ease-in-out_infinite] rounded-full bg-white shadow-[0_0_0_6px_rgba(255,255,255,0.07)]"></span>
+                            <span className="relative inline-flex w-[7px] h-[7px] rounded-full bg-white"></span>
+                          </span>                        
                       </div> 
                       </div> 
                     </div>                      
