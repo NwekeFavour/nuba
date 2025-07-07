@@ -89,8 +89,8 @@ export default function Home() {
                 </Head> 
                 {/* Hero Section */} 
                 <div className={`${styles.container} items-center  md:block lg:flex`}> 
-                  <div className={`${styles.content} md:block items-center lg:flex `}> {/* Headline */} 
-                    <div className={`${styles.headline} text-start lg:w-[70%]`}> 
+                  <div  className={`${styles.content} md:block items-center lg:flex `}> {/* Headline */} 
+                    <div data-aos="fade-down" className={`${styles.headline} text-start lg:w-[70%]`}> 
                       <h2 className={styles.title}> 
                         <span className={`${styles.highlight} lg:text-[62px] text-[35px] md:text-[50px] sm:text-[40px] lg:font-[500] leading-[100%]`}>Earn rents rewards </span>
                         <p className="m-0 md:mt-3 md:text-[24px] sm:text-[22px] leading-[100%] font-[400]">Maximize benefits on your credit and debit card</p>
@@ -100,9 +100,9 @@ export default function Home() {
                       </Link> 
                     </div> 
                     {/* Pin Elements */} 
-                    <div className={`${styles.pins} xl:mt-0 lg:mt-0 mt-[160px] md:mt-[200px] pos1 relative lg:h-[302px] md:h-[200px]`}> 
+                    <div  data-aos="zoom-in" className={`${styles.pins} xl:mt-0 lg:mt-0 mt-[160px] md:mt-[200px] pos1 relative lg:h-[302px] md:h-[200px]`}> 
                       {/* Rent Pin */} 
-                      <div className={`${styles.pin} absolute avios top-0`}> 
+                      <div  className={`${styles.pin} absolute avios top-0`}> 
                         <div className={`${styles.pinCard}  backdrop-blur-sm bg-white/10`}> 
                           <div className={`${styles.pinIconWrapper} w-[48px] h-[48px] flex items-center justify-center bg-[#000A18]`}> 
                             <BiSolidPlaneAlt className='text-gray-400  text-3xl'/>
@@ -287,7 +287,7 @@ export default function Home() {
             </div>
             <div className='xl:flex md:mt-0 mt-4 lg:block items-center justify-center gap-5'>
               <div className="w-full   max-w-md mx-auto">
-                <div className="bg-transparent xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl group">
+                <div data-aos="zoom-in" className="bg-transparent xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl group">
                   <div className="overflow-hidden">
                     <div className={`${styles.img2} px-7 py-6 flex justify-center items-center`}>
                       <div className='backdrop-blur-sm px-7 py-5 rounded-[20px] bg-black/20 xl:w-[359px] xl:h-[143px] lg:w-[120px] lg:h-[140px] md:w-[330px] md:h-[130px] w-[300px] h-[150px]'>
@@ -341,7 +341,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full md:my-3 xl:my-0 max-w-md mx-auto">
-                <div className="bg-transparent  xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl group ">
+                <div data-aos="zoom-in" className="bg-transparent  xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl group ">
                   <div className={`${styles.img} px-7 py-6 flex justify-center items-center`}>
                     <div className='backdrop-blur-sm px-7 py-5 rounded-[20px] bg-black/30 xl:w-[359px] xl:h-[269px] lg:w-[350px] lg:h-[250px] md:w-[330px] md:h-[260px] w-[300px] h-[280px]'>
                       <p className="m-0 text-white xl:text-[14px] text-[13px] opacity-[90%]">Credit score</p>
@@ -372,7 +372,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full  max-w-md mx-auto">
-                <div className="bg-transparent xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl ">
+                <div data-aos="zoom-in" className="bg-transparent xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl ">
                   <div className={`${styles.img3} px-7 py-6 flex justify-center items-center  `}>
                     <div className=''>
                       <div className='backdrop-blur-sm px-5 py-2 rounded-[20px] bg-black/70 xl:w-[359px] xl:h-[62px] lg:w-[350px] lg:h-[60px] md:w-[330px] md:h-[55px] w-[300px] h-[50px]'>
