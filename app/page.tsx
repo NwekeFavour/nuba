@@ -289,7 +289,7 @@ export default function Home() {
             </div>
             <div className='xl:flex md:mt-0 mt-4 lg:block items-center justify-center gap-5'>
               <div className="w-full   max-w-md mx-auto">
-                <div data-aos="zoom-in" className="bg-transparent xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl group">
+                <div data-aos="zoom-in" className="bg-transparent xl:w-[407px] lg:h-[576px] md:h-[600px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl group">
                   <div className="overflow-hidden">
                     <div className={`${styles.img2} px-7 py-6 flex justify-center items-center`}>
                       <div className='backdrop-blur-sm px-7 py-5 rounded-[20px] bg-black/20 xl:w-[359px] xl:h-[143px] lg:w-[120px] lg:h-[140px] md:w-[330px] md:h-[130px] w-[300px] h-[150px]'>
@@ -343,7 +343,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full md:my-3 xl:my-0 max-w-md mx-auto">
-                <div data-aos="zoom-in" className="bg-transparent  xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl group ">
+                <div data-aos="zoom-in" className="bg-transparent  xl:w-[407px] lg:h-[576px] md:h-[600px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl group ">
                   <div className={`${styles.img} px-7 py-6 flex justify-center items-center`}>
                     <div className='backdrop-blur-sm px-7 py-5 rounded-[20px] bg-black/30 xl:w-[359px] xl:h-[269px] lg:w-[350px] lg:h-[250px] md:w-[330px] md:h-[260px] w-[300px] h-[280px]'>
                       <p className="m-0 text-white xl:text-[14px] text-[13px] opacity-[90%]">Credit score</p>
@@ -374,7 +374,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full  max-w-md mx-auto">
-                <div data-aos="zoom-in" className="bg-transparent xl:w-[407px] lg:h-[576px] md:h-[500px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl ">
+                <div data-aos="zoom-in" className="bg-transparent xl:w-[407px] lg:h-[576px] md:h-[600px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl ">
                   <div className={`${styles.img3} px-7 py-6 flex justify-center items-center  `}>
                     <div className=''>
                       <div className='backdrop-blur-sm px-5 py-2 rounded-[20px] bg-black/70 xl:w-[359px] xl:h-[62px] lg:w-[350px] lg:h-[60px] md:w-[330px] md:h-[55px] w-[300px] h-[50px]'>
