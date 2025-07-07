@@ -478,7 +478,7 @@ const scroll = (ref: React.RefObject<HTMLDivElement | null>, direction: "left" |
       </div>
 
       {/* --- Hotel Section --- */}
-      <div className="flex flex-col items-start md:mt-12 lg:mt-20 px-3 md:px-6">
+      <div className="flex flex-col items-start md:mt-12 mt-3 lg:mt-20 px-3 md:px-6">
         <div className="flex justify-between items-center w-full mb-7">
           <p className="text-xl font-semibold text-white lg:text-[20px] text-[18px]">Hotel transfer partners</p>
           <div className="flex items-center gap-2">
