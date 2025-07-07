@@ -57,8 +57,8 @@ export default function Home() {
     const cardsCaroutwo = useSelector((state: RootState) => state.card.cardsCarouseltwo)
   const [activeIndex, setActiveIndex] = useState(4)
   const [activeIndextwo, setActiveIndextwo] = useState(4)
-  const scrollRef1 = useRef(null);
-  const scrollRef2 = useRef(null);
+  const scrollRef1 = useRef<HTMLDivElement>(null);
+  const scrollRef2 = useRef<HTMLDivElement>(null);
 
  const scroll = (ref: RefObject<HTMLDivElement>, direction: "left" | "right") => {
   if (ref.current) {
