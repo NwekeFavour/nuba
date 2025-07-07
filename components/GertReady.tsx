@@ -9,7 +9,7 @@ export default function GetReady() {
         <section>
           <div className='sm:flex mx-3  sm:gap-3 items-center md:gap-5  xl:gap-10 justify-center'>
             <div className="">
-              <div className="bg-transparent w-[350px] mx-auto lg:mx-auto sm:w-[320px] xl:h-[576px] md:w-[354px] lg:h-[600px] xl:w-[504px] lg:w-[454px] md:h-[600px] rounded-lg shadow-lg overflow-hidden transition-all duration-300  ">
+              <div className="bg-transparent w-[300px] mx-auto lg:mx-auto sm:w-[320px] xl:h-[576px] md:w-[354px] lg:h-[600px] xl:w-[504px] lg:w-[454px] md:h-[600px] rounded-lg shadow-lg overflow-hidden transition-all duration-300  ">
                 <div className={`${styles.sect}   sm:mb-0 mb-8 lg:w-[424px] xl:w-full sm:p-3 p-5 md:p-5 rounded-[16px]`}>
                   <div className='lg:mt-14 md:h-[auto] h-[250px] md:mt-12 items-center'>
                     <p className='m-0 lg:text-[40px] md:text-[30px] sm:text-[24px] text-[25px] leading-[125%] font-[500] '>Ready to start getting rewarded on your rent?</p>
@@ -51,7 +51,7 @@ export default function GetReady() {
               </div>
             </div>
             <div className="">
-              <div className="bg-transparent w-[350px] mx-auto  lg:mx-auto sm:w-[320px] md:w-[354px]  xl:h-[576px]  xl:w-[504px] lg:h-[600px] lg:w-[454px] md:h-[600px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl ">
+              <div className="bg-transparent w-[300px] mx-auto  lg:mx-auto sm:w-[320px] md:w-[354px]  xl:h-[576px]  xl:w-[504px] lg:h-[600px] lg:w-[454px] md:h-[600px] rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl ">
                 <div className={`md:h-[414px sm:h-[414px] xl:w-[504px] lg:w-[424px] p-5 sm:p-4 bg-white md:p-5 rounded-[16px]`}>
                   <div className=' lg:mt-8  md:mt-6  items-center'>
                     <div className='flex items-center  justify-between'>
