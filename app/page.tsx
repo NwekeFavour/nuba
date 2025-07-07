@@ -463,7 +463,7 @@ const scroll = (ref: React.RefObject<HTMLDivElement | null>, direction: "left" |
         </div>
         <div
           ref={scrollRef1}
-          className="flex gap-2 overflow-x-hidden scrollbar-hide w-full"
+          className="flex gap-[8px] overflow-x-hidden scrollbar-hide w-full"
         >
           {cards.map((card, index) => (
             <div key={index} className="flex-shrink-0 w-[120px] md:w-[144px]">
@@ -492,10 +492,10 @@ const scroll = (ref: React.RefObject<HTMLDivElement | null>, direction: "left" |
         </div>
         <div
           ref={scrollRef2}
-          className="flex gap-2 overflow-x-hidden  scrollbar-hide w-full"
+          className="flex gap-[8px] overflow-x-hidden  scrollbar-hide w-full"
         >
           {cardsDuo.map((card, index) => (
-            <div key={index} className="flex-shrink-0 w-[120px] md:w-[144px]">
+            <div key={index} className="flex-shrink-0 w-[120px] md:w-[152px]">
               <Image
                 src={card.image}
                 alt={card.title}

@@ -18,8 +18,8 @@ export default function Navbar() {
     { label: "For You", href: "/" },
     { label: "Pay Rent", href: "/pay-rent" },
     { label: "Neighbourhood", href: "/neighbourhood" },
-    { label: "Reqwards", href: "/tips" },
-    { label: "FAQ", href: "/faq" },
+    { label: "Rewards", href: "/tips" },
+    { label: "FAQs", href: "/faq" },
   ]
 
   return (
