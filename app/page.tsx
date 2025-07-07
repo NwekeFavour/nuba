@@ -60,7 +60,7 @@ export default function Home() {
   const scrollRef1 = useRef<HTMLDivElement>(null);
   const scrollRef2 = useRef<HTMLDivElement>(null);
 
- const scroll = (ref: RefObject<HTMLDivElement>, direction: "left" | "right") => {
+const scroll = (ref: React.RefObject<HTMLDivElement | null>, direction: "left" | "right") => {
   if (ref.current) {
     const scrollAmount = 300;
     ref.current.scrollBy({
@@ -69,6 +69,7 @@ export default function Home() {
     });
   }
 };
+
 
   return ( 
     <div className="min-h-screen bg-gray-50 font-sans">
