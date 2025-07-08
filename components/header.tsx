@@ -62,13 +62,13 @@ export default function Navbar() {
             </DialogTrigger>
 
             <DialogContent
-              className="p-0 m-0 top-[300px] rounded-t-2xl bg-[#010a13bf] backdrop-blur-sm border-none"
+              className="p-0 m-0 top-[300px] rounded-t-2xl bg-[#010a13bf] backdrop-blur-sm border-none [&>button[data-slot='dialog-close']]:hidden"
               onInteractOutside={() => setOpen(false)}
               onEscapeKeyDown={() => setOpen(false)}
             >
               <DialogTitle></DialogTitle>
               {/* ❌ Close Button */}
-              <div className="flex justify-start p-4">
+              <div className="flex justify-start p-2">
                 <button
                   onClick={() => setOpen(false)}
                   className="text-white hover:text-gray-300"

@@ -214,7 +214,7 @@ const scroll = (ref: React.RefObject<HTMLDivElement | null>, direction: "left" |
         {/* Placeholder for Additional Sections */} 
         <section className=" flex items-center w-full"> 
           <div className="container-fluid px-10 md:py-5 py-3 bg-[#020A13] w-[100%]"> 
-            <div className={`${styles.rent} lg:h-[700px] h-[645px] rounded-[20px] mx-auto container`}>
+            <div className={`${styles.rent}  lg:h-[700px] h-[645px] rounded-[20px] mx-auto container`}>
               <div className="md:flex justify-center relative lg:items-start items-center  px-4 py-10">
 
                 <div className="lg:w-[574px] md:w-[50%]">
