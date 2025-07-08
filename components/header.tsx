@@ -9,7 +9,7 @@ import Nuba from "@/public/svgs/uba.svg"
 import N from "@/public/svgs/N.svg"
 import Image from "next/image"
 import { HiBars2 } from "react-icons/hi2"
-import { IoCloseSharp } from "react-icons/io5";
+import { IoCloseSharp } from "react-icons/io5"
 import { DialogTitle } from "@radix-ui/react-dialog"
 
 export default function Navbar() {
@@ -62,7 +62,7 @@ export default function Navbar() {
             </DialogTrigger>
 
             <DialogContent
-              className="p-0 m-0 top-[300px]  rounded-t-2xl bg-[#010a13bf] backdrop-blur-sm border-none"
+              className="p-0 m-0 top-[300px] rounded-t-2xl bg-[#010a13bf] backdrop-blur-sm border-none"
               onInteractOutside={() => setOpen(false)}
               onEscapeKeyDown={() => setOpen(false)}
             >
@@ -97,7 +97,7 @@ export default function Navbar() {
                 >
                   Login
                 </Link>
-                <div className="">
+                <div>
                   <Button className="w-full">Sign up / Log In</Button>
                 </div>
               </div>
