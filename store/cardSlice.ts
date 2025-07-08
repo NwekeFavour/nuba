@@ -8,15 +8,14 @@ import CardFive from "@/public/svgs/card-five.svg";
 import CardSix from "@/public/svgs/card-six.svg";
 import CardSeven from "@/public/svgs/card-seven.svg";
 import CardEight from "@/public/svgs/card-eight.svg";
-import CardUn from "@/public/svgs/cardOne-one.svg"
-import CardDeux from "@/public/svgs/cardTwo-two.svg"
-import CardTroix from "@/public/svgs/cardThree-three.svg"
-import CardQuatre from "@/public/svgs/cardFour-four.svg"
-import CardCinq from "@/public/svgs/cardFive-five.svg"
-import CardSixx from "@/public/svgs/cardSix-six.svg"
-import CardSept from "@/public/svgs/lux.svg"
-import CardHuit from "@/public/svgs/cardEight-eight.svg"
-import CardIx from "@/public/svgs/cardNine-nine.svg"
+import CardUn from "@/public/svgs/hilton.svg"
+import CardDeux from "@/public/svgs/marriot.svg"
+import CardTroix from "@/public/svgs/monty_suites_logo.png.svg"
+import CardQuatre from "@/public/svgs/four-seasons.svg"
+import CardCinq from "@/public/svgs/ritz.svg"
+import CardSixx from "@/public/svgs/mayfair.svg"
+import CardSept from "@/public/svgs/lukman.svg"
+import CardHuit from "@/public/svgs/lane.svg"
 import VectorOne from "@/public/svgs/Vector.svg"
 import VectorTwo from "@/public/svgs/vectortwo.svg"
 import VectorThree from "@/public/svgs/vectorthree.svg"
@@ -54,7 +53,7 @@ const initialState: CardState = {
     cardsDuo: [
     { id: 1, title: "Card One", image: CardUn },
     { id: 2, title: "Card Two", image: CardDeux },
-    { id: 3, title: "Card Three", image: CardIx },
+    { id: 3, title: "Card Three", image: CardTroix },
     { id: 4, title: "Card Four", image: CardQuatre },
     { id: 5, title: "Card Five", image: CardCinq },
     { id: 6, title: "Card Six", image: CardSixx },

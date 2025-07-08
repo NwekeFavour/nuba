@@ -3,13 +3,14 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { HamburgerMenuIcon } from "@radix-ui/react-icons"
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 import Nuba from "@/public/svgs/uba.svg"
 import N from "@/public/svgs/N.svg"
 import Image from "next/image"
-import { HiBars2 } from "react-icons/hi2";
+import { HiBars2 } from "react-icons/hi2"
+import { IoCloseSharp } from "react-icons/io5";
+import { DialogTitle } from "@radix-ui/react-dialog"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -23,17 +24,12 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="bg-[#020A13] backdrop-blur-sm  top-0 z-50 w-full">
+    <nav className="bg-[#020A13] backdrop-blur-sm top-0 z-50 w-full">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* 🌟 Logo */}
-
         <Link href="/" className="flex gap-1 items-center">
-          <div>
-            <Image src={N} alt="header-icon"/>
-          </div>
-          <div>
-            <Image src={Nuba} alt="header-icon"/>
-          </div>
+          <Image src={N} alt="header-icon" />
+          <Image src={Nuba} alt="header-icon" />
         </Link>
 
         {/* 🔗 Desktop Links */}
@@ -49,7 +45,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* 🔍 Search + Login + Hamburger */}
+        {/* 🔍 Login + Mobile Menu Trigger */}
         <div className="flex items-center space-x-4">
           <Link href="/login">
             <Button variant="secondary" size="sm">
@@ -61,11 +57,29 @@ export default function Navbar() {
           <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger asChild>
               <button className="md:hidden p-2 text-white hover:text-gray-200">
-                <HiBars2  className="text-3xl"/>
+                <HiBars2 className="text-3xl" />
               </button>
             </DialogTrigger>
-            <DialogContent className="p-0">
-              <div className="space-y-4 bg-[#0A0A18] p-6">
+
+            <DialogContent
+              className="p-0 m-0 top-[300px]  rounded-t-2xl bg-[#010a13bf] backdrop-blur-sm border-none"
+              onInteractOutside={() => setOpen(false)}
+              onEscapeKeyDown={() => setOpen(false)}
+            >
+              <DialogTitle></DialogTitle>
+              {/* ❌ Close Button */}
+              <div className="flex justify-start p-4">
+                <button
+                  onClick={() => setOpen(false)}
+                  className="text-white hover:text-gray-300"
+                  aria-label="Close Menu"
+                >
+                  <IoCloseSharp className="text-3xl text-white" />
+                </button>
+              </div>
+
+              {/* 📱 Mobile Nav Links */}
+              <div className="space-y-4 px-6 pb-6">
                 {navLinks.map((link) => (
                   <Link
                     key={link.href}
@@ -83,6 +97,9 @@ export default function Navbar() {
                 >
                   Login
                 </Link>
+                <div className="">
+                  <Button className="w-full">Sign up / Log In</Button>
+                </div>
               </div>
             </DialogContent>
           </Dialog>

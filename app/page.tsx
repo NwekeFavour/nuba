@@ -495,12 +495,14 @@ const scroll = (ref: React.RefObject<HTMLDivElement | null>, direction: "left" |
           className="flex gap-[8px] overflow-x-hidden  scrollbar-hide w-full"
         >
           {cardsDuo.map((card, index) => (
-            <div key={index} className="flex-shrink-0 w-[120px] md:w-[152px]">
-              <Image
-                src={card.image}
-                alt={card.title}
-                className="object-contain w-full h-auto"
-              />
+            <div key={index} className="flex-shrink-0 w-[120px] flex justify-center items-center md:h-[144px] h-[144px] md:w-[152px] bg-[#ffffff]/7">
+              <div className='flex justify-center items-center'>
+                <Image
+                  src={card.image}
+                  alt={card.title}
+                  className="object-contain w-full h-auto"
+                />
+              </div>
             </div>
           ))}
         </div>
